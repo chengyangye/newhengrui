@@ -9,7 +9,7 @@
 			</div>
 			<div class="main">
 				{foreach from=$art_list[$cat.cat_id] name=art_list item=item}
-				<div><a href="{url channel=$cat.channel id=$item.art_id}" title="{$item.art_title}" target="_blank">{$item.short_title}</a></div>
+				<div><a href="{url channel=$cat.channel id=$item.art_id}" title="{$item.art_title}" target="_blank">{$item.short_title}<span>{$item.art_add_time|date_format:"%Y-%m-%d"}<span></a></div>
 				{/foreach}
 			</div>
 		</div>
