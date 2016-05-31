@@ -9,8 +9,9 @@
 	<title>{$site_title}</title>
 
 	<link href="{$S_TPL_PATH}css/app.css" rel="stylesheet" type="text/css" />
-	<link href="{$S_TPL_PATH}css/huandeng.css" rel="stylesheet" type="text/css" />
-	<script src="{$S_TPL_PATH}js/jquery-1.7.2.min(1).js" type="text/javascript">
+	<link href="{$S_TPL_PATH}css/swiper3.07.min.css" rel="stylesheet" type="text/css" />
+	<script src="{$S_TPL_PATH}js/jquery-1.7.2.min(1).js" type="text/javascript"></script>
+	<script src="{$S_TPL_PATH}js/swiper3.07.jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="{$S_TPL_PATH}js/index.js"></script>
 </head>
 <body>
