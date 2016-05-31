@@ -745,8 +745,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
   position: absolute;bottom: 0;left: 0;right: 0;height: 30px;background-color: #000000;opacity: 0.5;
 }
 .swiper-wrapper>li{width: 1000px;height: 250px;}
-.swiper-wrapper>li>span{position: absolute;bottom: 0;left: 0;right: 0;line-height: 30px;color: #ffffff;overflow: hidden;padding-left: 15px;}
-.swiper-pagination{text-align: right !important;bottom: 5px !important;}
+.swiper-wrapper>li span{position: absolute;bottom: 0;left: 0;right: 0;line-height: 30px;color: #ffffff;overflow: hidden;padding-left: 15px;cursor: pointer;}
+.swiper-pagination{right: 5px;bottom: 5px !important;}
 .swiper-pagination span{
   background: #666 none repeat scroll 0 0;color: #fff;cursor: pointer;display: -moz-inline-stack;font-family: Arial;font-size: 12px;font-style: normal;height: 15px;line-height: 15px;padding: 2px 6px;
   opacity: 1 !important;margin:0 2px 0 0 !important;
