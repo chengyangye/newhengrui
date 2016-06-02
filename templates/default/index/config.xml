@@ -10,6 +10,7 @@
 	</index>
 	<article name="文章频道">
 		<module name="头部">header</module>
+		<module name="频道导航">cat_list</module>
 		<module name="最新文章">new_article</module>
 		<module name="推荐文章">best_article</module>
 		<module name="主体">article_main</module>
