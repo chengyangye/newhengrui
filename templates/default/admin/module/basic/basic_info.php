@@ -42,7 +42,7 @@
 	<div class="main">
 		<table class="table">
 			<tr>
-				<td><a href="http://www.sin{**}siu.com/" target="_blank">官方网站</a></td>
+<!--				<td><a href="http://www.sin{**}siu.com/" target="_blank">官方网站</a></td>-->
 				<td><a href="{url channel=$global.channel mod='admin_list'}">修改密码</a></td>
 				<td><a href="{url channel='service' mod='message_sheet'}">留言管理</a></td>
 				<td><a href="{url channel='file' mod='pic_lists'}">图片管理</a></td>

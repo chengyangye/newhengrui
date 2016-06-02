@@ -26,7 +26,7 @@ function module_article_list()
 				
 					$cat_parent_id = get_data('cat_art',$list[$j]['art_cat_id'],'cat_parent_id');
 					if($cat_parent_id!=0){
-						$list[$j]['cat_name'] = get_data('cat_art',$list[$j]['art_cat_id'],'cat_name').":";
+						$list[$j]['cat_name'] = get_data('cat_art',$list[$j]['art_cat_id'],'cat_name')." : ";
 					}else{
 						$list[$j]['cat_name'] = "";
 					}

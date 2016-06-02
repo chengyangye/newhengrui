@@ -15,7 +15,7 @@
 				<td><a href="templates/{$item.name}/images/this.jpg">{$item.name}</a></td>
 				<td class="content" style="text-align:left;">
 					{$item.text}
-					<a href="templates/{$item.name}/readme.txt">[阅读原文]</a>
+<!--					<a href="templates/{$item.name}/readme.txt">[阅读原文]</a>  -->
 				</td>
 				<td>
 					{if $S_TPL_PATH != $S_ROOT|cat:'templates/'|cat:$item.name|cat:'/'}
