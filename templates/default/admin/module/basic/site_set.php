@@ -37,10 +37,12 @@
 					<td>网站关键字：</td>
 					<td><input name="site_keywords" type="text" class="text" maxlength="200" value="{$site.keywords}" /></td>
 				</tr>
+                                <!--
 				<tr>
 					<td>网站描述：</td>
 					<td><textarea class="textarea" name="site_description">{$site.description}</textarea></td>
 				</tr>
+                                -->
 				<tr>
 					<td>统计代码：</td>
 					<td>
