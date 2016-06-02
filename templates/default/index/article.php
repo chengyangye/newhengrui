@@ -6,7 +6,7 @@
 	<meta name="keywords" content="{$keywords}" />
 	<meta name="description" content="{$describe}" />
 	<meta name="version" content="{$version}" />
-	<title>{if $page_title}{$page_title} - {/if}{if $cat_name}{$cat_name}{$cat_name}{$cat_name}{$cat_name} - {/if}{$channel_title} - {$site_title}</title>
+	<title>{if $page_title}{$page_title} - {/if}{if $cat_name}{$cat_name} - {/if}{$channel_title} - {$site_title}</title>
 	<link href="{$S_TPL_PATH}css/app.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
