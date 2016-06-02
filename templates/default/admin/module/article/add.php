@@ -39,7 +39,10 @@
 				</tr>
 				<tr>
 					<td>{$lang.description}：</td>
-					<td><input class="text" name="art_description" type="text" value="{$site_description}" /></td>
+					<td>
+						<a>请在此处填写您的文章摘要，此处内容会在界面上文章摘要中显示！！！请勿随意填写！！！</a><br>
+						<input class="text" name="art_description" type="text" value="{$site_description}" />
+					</td>
 				</tr>
 				<tr>
 					<td colspan="2">
