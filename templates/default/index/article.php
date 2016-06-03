@@ -14,6 +14,8 @@
 	<div id="main" class="wrap mt-10">
 		<div id="left" class="sub_left ll">
 			{run module='cat_list' id=$global.cat}
+<!--			{run module='new_article'}
+			{run module='best_article'}	-->
 		</div>
 		<div id="right" class="sub_right r">
 			{include file="module/here.php"}
