@@ -9,8 +9,8 @@
 <div class="sub_left_sider_bar m-11">
   <h2 class="sider_title"><span>快速通道</span></h2>
   <ul class="nav_item">
-	<li><a href="http://www.chaoyoubi.com/wskh/"><i class="am-icon-angle-double-right"></i>网上开户</a></li>
-	<li><a href="http://www.chaoyoubi.com/yhbd/"><i class="am-icon-angle-double-right"></i>银商绑定</a></li>
+	<li><a href="https://kh.zgqbyp.com/SelfOpenAccount/firmController.fir?funcflg=checkTime&brokerId=2351"><i class="am-icon-angle-double-right"></i>网上开户</a></li>
+	<li><a href="/?/article/cat-11/"><i class="am-icon-angle-double-right"></i>银商绑定</a></li>
 	<li><a target="_blank" href="tencent://message/?uin=2914044971&amp;Site=www.chaoyoubi.com&amp;Menu=yes"><i class="am-icon-angle-double-right"></i>在线咨询</a> </li>
   </ul>
 </div>

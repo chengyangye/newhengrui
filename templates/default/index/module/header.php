@@ -11,13 +11,9 @@
           </div>
           <ul class="top_link">
 
-    		<li> <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.chaoyoubi.com');" href="">设为首页</a></li>
+    		<li> <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://test.zongyangtech.cn');" href="">设为首页</a></li>
 
-    		<li><a href="javascript:window.external.AddFavorite('http://www.chaoyoubi.com','南方文交所-南方文交所钱币邮票交易中心开户|南方文交所钱币藏品交易中心开户')">加入收藏</a></li>
-
-            <li><a target="_blank" href="http://www.chaoyoubi.com/sitemap.html">网站地图</a></li>
-
-            <li><a target="_blank" href="http://www.chaoyoubi.com/rssmap.html">RSS地图</a></li>
+    		<li><a href="javascript:window.external.AddFavorite('http://test.zongyangtech.cn','南方文交所-南方文交所钱币邮票交易中心开户|南方文交所钱币藏品交易中心开户')">加入收藏</a></li>
           </ul>
           <div class="clear"></div>
         </div>

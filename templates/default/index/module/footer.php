@@ -16,6 +16,6 @@
 <div class="fastbox">
     <div class="fasttitle">快速通道</div>
     <div class="onlineico"><a target="_blank" href="https://kh.zgqbyp.com/SelfOpenAccount/firmController.fir?funcflg=checkTime&brokerId=2351">网上开户</a></div>
-    <div class="trader"><a target="_blank" href="http://www.chaoyoubi.com/yhbd/">银商绑定</a></div>
+    <div class="trader"><a target="_blank" href="/?/article/cat-11/">银商绑定</a></div>
     <div class="contact"><a target="_blank" href="tencent://message/?uin=2914044971&amp;Site=www.chaoyoubi.com&amp;Menu=yes">在线咨询</a></div>
 </div>
