@@ -5,21 +5,21 @@
           <div id="top_notice">
             <ul>
 
-              <li>欢迎访问<h1>南方文交所</h1>开户网站！</li>
+              <li>欢迎访问<h1>南京文交所</h1>开户网站！</li>
 
             </ul>
           </div>
           <ul class="top_link">
 
-    		<li> <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://test.zongyangtech.cn');" href="">设为首页</a></li>
+    		<li> <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://test.zongyangtech.cn');" href="#">设为首页</a></li>
 
-    		<li><a href="javascript:window.external.AddFavorite('http://test.zongyangtech.cn','南方文交所-南方文交所钱币邮票交易中心开户|南方文交所钱币藏品交易中心开户')">加入收藏</a></li>
+    		<li><a href="javascript:window.external.AddFavorite('http://test.zongyangtech.cn','南京文交所-南京文交所钱币邮票交易中心开户|南京文交所钱币藏品交易中心开户')">加入收藏</a></li>
           </ul>
           <div class="clear"></div>
         </div>
     </div>
 	<div class="wrap">
-        <div class="logo l"><a target="_blank" href="/"><img alt="南方文交所" src="templates/default/images/logo.png" data-bd-imgshare-binded="1"></a></div>
+        <div class="logo l"><a target="_blank" href="/"><img alt="南京文交所" src="templates/default/images/logo.png" data-bd-imgshare-binded="1"></a></div>
         <div class="clear"></div>
     </div>
     <nav>
