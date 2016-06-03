@@ -390,7 +390,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
 
 .sub_left .sub_left_sider_bar .sider_title{height:35px;line-height:35px;background:#f3f3f3;}
 
-.sub_left .sub_left_sider_bar .sider_title span{color:#b21810;margin-left:10px;font-size:16px;background:url(icon01.gif) no-repeat left 5px;padding-left:20px;font-weight:400;}
+.sub_left .sub_left_sider_bar .sider_title span{color:#b21810;margin-left:10px;font-size:16px;background:url(../images/icon01.gif) no-repeat left 5px;padding-left:20px;font-weight:400;}
 
 .sub_left .sub_left_sider_bar .nav_item{}
 
