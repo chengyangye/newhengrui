@@ -2,6 +2,11 @@
 {if $show_all_art != 1}
 <!--<div class="wrap mt-10"><div class="index_center ">-->
 	{foreach from=$best_art_cat name=best_art_cat item=cat}
+		{if $smarty.foreach.best_art_cat.index ==2}
+			<div class="wrap mt-10">
+        		<iframe width="999" height="245" frameborder="0" src="http://180.97.2.74:16000/tradeweb/hq/hqV_lb.jsp" scrolling="No" marginwidth="0" marginheight="0"></iframe>
+        	</div>
+		{/if}
 		{if $smarty.foreach.best_art_cat.index % 2 == 0}<div class="wrap mt-10"><div class="index_center ">{/if}
 		<div class="index_list_news l">
 			<h2 class="list_news_title">{$cat.cat_name} <span>  <a href="{url channel=$cat.channel cat=$cat.cat_id}">更多</a>  </span></h2>
