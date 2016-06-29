@@ -8,8 +8,8 @@
 				<td>{$lang.cat_name}</td>
 				<td width="30px">{$lang.grade}</td>
 				<td width="45px">{$lang.set_index}</td>
-				<td width="40px">{$lang.set_best}</td>
-				<td width="40px">{$lang.set_top}</td>
+                                <td width="40px">在首页显示</td><!--best推荐-->
+                                <td width="40px">交易品种</td><!--top置顶-->
 				<td width="40px">{$lang.set_show}</td>
 				<td width="80px">{$lang.operate}</td>
 			</tr>

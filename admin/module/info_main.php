@@ -38,7 +38,7 @@ function admin_login()
 			$obj->set_where('');
 			$obj->set_where("adm_id = $adm_id");
 			$obj->edit();
-			$info_text = '欢迎使用新秀文章管理系统后台';
+                        $info_text = '欢迎使用恒瑞管理系统后台';
 			$link_text = '进入后台';
 		}else{
 			unset_session('session_id');

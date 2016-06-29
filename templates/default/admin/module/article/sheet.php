@@ -7,9 +7,9 @@
 				<td width="120px">{$lang.category}</td>
 				<td>{$lang.title}</td>
 				<td width="45px">{$lang.set_index}</td>
-				<td width="40px">推荐</td>
-				<td width="40px">{$lang.set_top}</td>
-				<td width="40px">{$lang.set_show}</td>
+<!--				<td width="40px">推荐</td>
+                                <td width="40px">{$lang.set_top}</td>   -->
+                                <td width="40px">{$lang.set_show}</td>
 				<td width="150px">{$lang.operate}</td>
 			</tr>
 			{foreach from=$article name=article item=item}
