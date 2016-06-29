@@ -37,11 +37,15 @@
 					<td>{$lang.keywords}：</td>
 					<td><input class="text" name="art_keywords" type="text" maxlength="200" value="{$article.art_keywords}" />
 					</td>
-				</tr>
+				</tr>   
 				<tr>
 					<td>{$lang.description}：</td>
 					<td><input class="text" name="art_description" type="text" value="{$article.art_description}" /></td>
 				</tr>
+                                <tr>
+                                        <td>{$lang.art_pic}：</td>
+                                        <td><input class="text" name="art_img" type="text" value="{$article.art_img}" /></td>
+                                </tr>
 				<tr>
 					<td colspan="2">
 						<div class="bt_row">

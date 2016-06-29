@@ -16,6 +16,7 @@ function module_add()
 	$smarty->assign('site_keywords',get_varia('site_keywords'));
 	$smarty->assign('site_description',get_varia('site_description'));
 	$smarty->assign('upl_date',date('Ymd'));
+        $smarty->assign('site_img',get_varia('site_img'));
 }
 //新秀
 ?>

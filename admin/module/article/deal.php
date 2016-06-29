@@ -10,6 +10,7 @@ function add_or_edit_article()
 	$art_text = post('editor','loose');
 	$art_keywords = post('art_keywords');
 	$art_description = post('art_description');
+        $art_img = post('art_img');
 	$art_add_time = time();
 	$arr = array();
 	$obj = new att_art();
@@ -39,6 +40,7 @@ function add_or_edit_article()
 	$obj->set_value('art_text',$art_text);
 	$obj->set_value('art_keywords',$art_keywords);
 	$obj->set_value('art_description',$art_description);
+        $obj->set_value('art_img',$art_img);
 	$obj->set_value('art_add_time',$art_add_time);
 	$obj->set_value('art_attribute',$art_attribute);
 	if($art_id != '')

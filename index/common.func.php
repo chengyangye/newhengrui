@@ -22,6 +22,7 @@ function initial($table)
 		$cat_name = '';
 		$keywords = get_varia('site_keywords');
 		$describe = get_varia('site_description');
+                $art_img = get_varia('site_img');
 	}else{
 		$global['cat'] = get_data($table,$global['id'],$tab.'_cat_id');
 		if(!($page_title = get_data($table,$global['id'],$tab.'_title')))
@@ -31,6 +32,7 @@ function initial($table)
 		$cat_name = get_data('cat_'.$tab,$global['cat'],'cat_name');
 		$keywords = get_data($table,$global['id'],$tab.'_keywords');
 		$describe = get_data($table,$global['id'],$tab.'_description');
+                $art_img = get_data($table,$global['id'],$tab.'_img');
 	}
 	if($global['cat']){$cat_name = get_data('cat_'.$tab,$global['cat'],'cat_name');}
 	
@@ -46,7 +48,8 @@ function initial($table)
 	$smarty->assign('cat_name',$cat_name);
 	$smarty->assign('keywords',$keywords);
 	$smarty->assign('describe',$describe);
-		
+        $smarty->assign('art_img',$art_img);
+
 	$smarty->assign('S_ROOT',S_ROOT);
 	$smarty->assign('S_TPL_PATH',S_ROOT . S_TPL_PATH);
 	$smarty->assign('S_LANG',S_LANG);

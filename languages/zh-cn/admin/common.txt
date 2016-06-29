@@ -3,6 +3,7 @@ please_select => 请选择
 upload_img => 上传图片
 upload_file => 上传文件
 keywords => 页面关键字
+art_pic => 文章配图
 description => 文章摘要
 submit => 提交
 go_back => 返回
