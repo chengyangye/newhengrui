@@ -4,7 +4,7 @@
 		{if $article}
 			<div class="sub_content_box">
 				<h1 class="content_title">
-					恒瑞文金{if $cat_name}{$cat_name}{/if}{if $page_title}{$page_title}{/if}
+					{if $channel_title}{$channel_title}{/if}{if $cat_name}{$cat_name}{/if}{if $page_title}{$page_title}{/if}
 				</h1>
 				<div class="sub_content">
 					<div class="list_items">

@@ -1,6 +1,6 @@
 {*<?php exit();?>*}
 <div id="header">
-	<div class="top">
+	<!--<div class="top">
         <div class="wrap">
           <div id="top_notice">
             <ul>
@@ -17,23 +17,20 @@
           </ul>
           <div class="clear"></div>
         </div>
+    </div>-->
+    <div class="logo_"><div class="logo"> <img style="float:left;" src="templates/default/images/logo.png">
     </div>
-	<div class="wrap">
-        <div class="logo l"><a target="_blank" href="/"><img alt="南京文交所" src="templates/default/images/logo.png" data-bd-imgshare-binded="1"></a></div>
-        <div class="clear"></div>
     </div>
-    <nav>
-    <div class="wrop">
-    	<div id="main_nav">
-    		<ul>
-    			{foreach from=$nav name=nav item=item}
-    			<li><a href="{$item.men_url}" {if $item.target == 1}target="_blank"{/if}>{$item.men_name}</a></li>
-    			{/foreach}
-    			<div class="clear"></div>
-    		</ul>
-    	</div>
+    <div id="navmenu" class="nav_bg">
+      <ul id="navi">
+        <li class="navon"><a href="/">首&nbsp;&nbsp;页</a></li>
+        <li><a href="/nanjing/">南京文交所</a></li>
+        <li><a href="/zhongnan/">河北文交所</a></li>
+        <li><a href="http://jm.zifengwenjin.com/">招商加盟</a></li>
+        <li><a href="/download/">下载中心</a></li>
+        <li><a href="/about/">关于我们</a></li>
+      </ul>
     </div>
-    </nav>
 </div>
 
 {literal}

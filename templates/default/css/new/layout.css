@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+/* 全局公共样式的设定 */
+/** 清除内外边距 **/
+html,body{height:100%}
+body, h1, h2, h3, h4, h5, h6, hr, p,
+blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */ /* table elements 表格元素 */
+img/* img elements 图片元素 */{border:medium none;
+margin: 0;
+padding: 0;}
+/** 设置默认字体 **/
+body{font-size:15px; font-family:"微软雅黑";_background-attachment: fixed;/* 确保滚动条滚动时，元素不闪动*/ overflow:-Scroll; color:#444;width:expression(document.body.clientWidth <= 1200? "1200px": "auto");min-width:1200px;}
+body,button, input, select, textarea{font: 15px '微软雅黑'}
+h1, h2, h3, h4, h5, h6{font-size: 100%;}
+em{font-style:normal;}
+/** 重置列表元素 **/
+ul, ol{list-style: none;}
+ul li{list-style:none;}
+/** 重置超链接元素 **/
+a{text-decoration: none; color:#444444;}/* 链接无下划线为none,有为underline */
+a:hover{text-decoration: none; color:#d4000f}/* 鼠标在链接上 */
+a:link{} /* 未访问的链接 */
+a:visited{} /* 已访问的链接 */
+a:active{} /* 点击激活链接 */
+/** 重置图片元素 **/
+img{border:0px;}
+/*.nav_bg{width:100%; margin:0 auto; height:55px; margin-top:20px;}
+.nav_bg .nav{width:1200px; margin:0 auto;}
+.nav li{float:left; margin-right:40px; line-height:35px; font-weight:bold; width:100px; text-align:center;padding:0 4px;}
+.nav li:hover{width:100px; height:35px; background:#dd0202; padding:0 4px; border-radius:0.5em;}
+.lihover{width:100px; height:35px; background:#dd0202; padding:0 4px; border-radius:0.5em;}
+.lihover a{color:#FFF; letter-spacing:2px;}
+.nav li:hover a{color:#FFF}
+.nav li a{font-size:16px;letter-spacing:2px;}*/
+/*后加*/
+/*分享*/
+.share-items{width: 78px; height: 340px; position: fixed; right: 15px; bottom:-30px; z-index: 9999;}
+.share-a{display: block; width: 77px; height: 77px; background-color: #fff; border: 1px solid #f2f2f2; position: relative; margin-bottom: 7px; border-radius: 5px;}
+.weixin-code{display: none; width:132px;position: absolute; right:80px; top:-1px; background: #fff; border: 1px solid #f2f2f2; padding: 5px;}
+.weixin-code span{padding: 0 5px;}
+.white-bank{display: none; width: 10px;height: 77px; background-color: #fff; position: absolute; left: -8px; top:-1px; border-top: 1px solid #f2f2f2;border-bottom: 1px solid #f2f2f2;z-index: 99999;}
+.share-a:hover .weixin-code,.share-a:hover .white-bank{display: block;}
+.share-a .icon{display: block; width: 35px; height: 32px; margin: 12px auto 5px auto; background: url(../icon-sprite.png) no-repeat;}
+/*.share-a .icon.kefu{background-position: -962px 0;}*/
+.share-a .icon.weixin{background-position: -961px -85px;}
+.share-a .icon.kaihu{background-position: -964px -169px;}
+.share-a .icon.top{background-position: -961px -254px;}
+.share-a .info{display: block; color: #666; text-align: center;}
+.share-a:hover{opacity: 1;}
+.share-a:hover .info{color: #b61d1d;}
+/*bottom*/
+.bottom{width:100%; float:left; height:66px; background:#404449; border-top:1px #373c3f solid;}
+.b_1200{width:1200px; margin:0 auto; line-height:66px; color:#FFF}
+.b_1200 .b_1{float:left;}
+.b_1200 .b_{float:left;}
+.b_1200 .b_ img{margin-left:20px; margin-top:10px;}
+.rss{width:440px; float:right;}
+.rss a{color:#FFF; margin-right:10px; margin-left:5px;}
+.w960{width:100%; float:left; height:100%;}
+.w960 .sp-title{width:1200px; margin:0 auto; height:30px;}
+.w960 .sp-title h2{float:left;}
+.w960 .sp-title span{float:right;}
+.w1200{width:1200px; margin:0 auto;}
+.linkbox{width:600px; float:left; line-height:30px;}
+.linkbox ul{float:left;}
+.linkbox ul li{float:left; width:100px; margin-top:10px;}
+/*搜索页*/
+.sousuo{width:100%; float:left;}
+.sousuo_{width:1200px; margin:0 auto; margin-top:20px;}
+.resultbar{height:30px;}
+.fc_03c{color:#F00;}
+.resultlist a{color:#F00}
+.resultlist ul li{border-bottom:1px #CCC dashed; padding-bottom:10px;}
+.resultlist ul li p{line-height:24px; font-size:13px;}
+/*底部*/
+.foot{width:100%; float:left; height:245px; background:#4f5458; margin-top:15px; color:#FFF}
+.foot dl{border-left:1px #43484e solid; width:180px; height:180px; float:left; margin-left:40px;}
+.foot dl dt{border-bottom:1px #373c40 solid; margin-left:30px; line-height:40px; font-size:16px;}
+.foot dl dt a{color:#FFF}
+.foot dl dd{margin-left:30px; margin-top:10px;}
+.foot dl dd a{color:#FFF}
+.footer{width:1160px; margin:0 auto; height:180px; padding-top:40px;}
+/*帮助中心*/
+.help{width:100%; height:162px; background:#f8f8f8; margin-top:70px; float:left;}
+.help-1200{width:1200px; margin:0 auto}
+.help-1200 ul{}
+.help-1200 ul a:hover{cursor:pointer}
+.help-1200 ul li{width:200px; float:left; text-align:center; height:162px; padding-top:40px;cursor:pointer}
+.help-1200 ul li:hover{background:#D9D9D9;width:200px; height:122px; border-radius:1em; cursor:pointer}
+.help-1200 ul li .pic1{background:url(../pic5.png); width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul .pic1_:hover .pic1{background:url(pic5_.png);width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul li .pic2{background:url(../pic6.png); width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul .pic2_:hover .pic2{background:url(pic6_.png);width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul li .pic3{background:url(../pic7.png); width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul .pic3_:hover .pic3{background:url(pic7_.png);width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul li .pic4{background:url(../pic8.png); width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul .pic4_:hover .pic4{background:url(pic8_.png);width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul li .pic5{background:url(../pic9.png); width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul .pic5_:hover .pic5{background:url(pic9_.png);width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul li .pic6{background:url(../pic10.png); width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
+.help-1200 ul .pic6_:hover .pic6{background:url(pic10_.png);width:45px; height:44px; text-align:center; margin:0 auto;cursor:pointer}
