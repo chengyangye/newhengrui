@@ -18,7 +18,7 @@
 	{run module='header'}
 
 		{run module='ad' id='2'}
-		{run module='article_list'}
+		{run module='article_list_hebei'}
 		{run module='link'}
 
 	{run module='footer'}

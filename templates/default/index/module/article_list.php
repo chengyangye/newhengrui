@@ -46,6 +46,43 @@
 			 });
 			})
       </script>
+
+<!--start 读取真实数据样式没调-->      
+{if $show_all_art != 1}
+	{foreach from=$best_art_cat name=best_art_cat item=cat}
+		{if $smarty.foreach.best_art_cat.index ==2}
+			<div class="wrap mt-10">
+        		<iframe width="999" height="245" frameborder="0" src="http://180.97.2.74:16000/tradeweb/hq/hqV_lb.jsp" scrolling="No" marginwidth="0" marginheight="0"></iframe>
+        	</div>
+		{/if}
+		{if $smarty.foreach.best_art_cat.index % 2 == 0}<div class="wrap mt-10"><div class="index_center ">{/if}
+		<div class="index_list_news l">
+			<h2 class="list_news_title">{$cat.cat_name} <span>  <a href="{url channel=$cat.channel cat=$cat.cat_id}">更多</a>  </span></h2>
+			<ul>
+				<a href="{url channel=$cat.channel_nj cat=$cat.cat_id}">南京文交所</a>
+				{foreach from=$art_list_nj[$cat.cat_id] name=art_list_nj item=item}
+					<li><a title="{$item.art_title}" target="_blank" href="{url channel=$cat.channel id=$item.art_id}">{$item.short_title}</a><span>{$item.art_add_time|date_format:"%Y-%m-%d"}</span></li>
+						{if $item.show_desc ==1}
+							<li><a target="_blank">{$item.short_desc}</a></li><!--这边显示第一条新闻的摘要-->
+						{/if}
+				{/foreach}
+			</ul>
+
+			<ul>
+				<a href="{url channel=$cat.channel_hb cat=$cat.cat_id}">河北文交所</a>
+				{foreach from=$art_list_hb[$cat.cat_id] name=art_list_hb item=item}
+					<li><a title="{$item.art_title}" target="_blank" href="{url channel=$cat.channel id=$item.art_id}">{$item.short_title}</a><span>{$item.art_add_time|date_format:"%Y-%m-%d"}</span></li>
+						{if $item.show_desc ==1}
+							<li><a target="_blank">{$item.short_desc}</a></li><!--这边显示第一条新闻的摘要-->
+						{/if}
+				{/foreach}
+			</ul>
+		</div>
+		{if $smarty.foreach.best_art_cat.index % 2 == 1 || $smarty.foreach.best_art_cat.last}<div class="clear"></div></div></div>{/if}
+	{/foreach}
+{/if}
+<!--end 读取真实数据样式没调-->      
+      <!--
         <div class="ht_con">
           <div class="con_tab_12" id="con_stab_1" style="display: none;">
             <div class="ht_pic">
@@ -87,7 +124,6 @@
             </div>
           </div>
 
-          <!--end con_stab_1-->
           <div style="display: block;" class="con_tab_12" id="con_stab_2">
             <div class="ht_pic">
               <div class="ht_pic_left"><img src="{$S_TPL_PATH}img/imgsg.jpg"></div>
@@ -128,7 +164,6 @@
             </div>
           </div>
 
-          <!--end con_stab_2-->
           <div style="display: none;" class="con_tab_12" id="con_stab_3">
             <div class="ht_pic">
               <div class="ht_pic_left"><img src="{$S_TPL_PATH}img/imgtg.jpg"></div>
@@ -170,7 +205,6 @@
             <div class="clear"></div>
           </div>
 
-          <!--end con_stab_3-->
           <div style="display: none;" class="con_tab_12" id="con_stab_4">
             <div class="ht_pic">
               <div class="ht_pic_left"><img src="{$S_TPL_PATH}img/imgzs.jpg"></div>
@@ -211,7 +245,7 @@
             </div>
             <div class="clear"></div>
           </div>
-          <!--end con_stab_4-->
+
           <div style="display: none;" class="con_tab_12" id="con_stab_5">
             <div class="ht_pic">
               <div class="ht_pic_left"><img src="{$S_TPL_PATH}img/imgzx2.jpg"></div>
@@ -252,7 +286,7 @@
             </div>
             <div class="clear"></div>
           </div>
-          <!--end con_stab_5-->
+
           <div style="display: none;" class="con_tab_12" id="con_stab_6">
             <div class="ht_pic">
               <div class="ht_pic_left"><img src="/img/imgzx.jpg"></div>
@@ -293,8 +327,9 @@
             </div>
             <div class="clear"></div>
           </div>
-          <!--end con_stab_6-->
+
         </div>
+        -->
       </div>
     </div>
     <div class="news-right">

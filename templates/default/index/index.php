@@ -20,6 +20,7 @@
 
 		{run module='ad' id='2'}
 		{run module='article_list'}
+		{run module='pic_list'}
 		{run module='link'}
 
 	{run module='footer'}
