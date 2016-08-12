@@ -5,7 +5,8 @@ function module_article_list()
 	$obj = new cat_art();
 	$obj->set_where('cat_best = 1');
 	$best_cat = $obj->get_list();
-	$art_list = array();
+	$art_list_nj = array();
+	$art_list_hb = array();
 	if(count($best_cat) > 0)
 	{
 		$smarty->assign('show_all_art',0);
@@ -20,6 +21,9 @@ function module_article_list()
 			$obj->set_where("art_cat_id in ($family)");
 			$obj->set_page_size($list_len ? $list_len : 5);
 			$list = $obj->get_list();
+			
+			$list_nj = array();
+			$list_hb = array();
 			for($j = 0; $j < count($list); $j ++)
 			{
 				$list[$j]['short_title'] = cut_str($list[$j]['art_title'],22);
@@ -30,13 +34,20 @@ function module_article_list()
 					}else{
 						$list[$j]['cat_name'] = "";
 					}
+					if($best_cat[$i]['cat_index']==1){
+						array_push($list_nj, $list[$j]);
+					}else{
+						array_push($list_hb, $list[$j]);
+					}
 					
 			}
-			$art_list[$cat_id] = $list;
+			$art_list_nj[$cat_id] = $list_nj;
+			$art_list_hb[$cat_id] = $list_hb;
 			unset($obj);
 		}
 		$smarty->assign('best_art_cat',$best_cat);
-		$smarty->assign('art_list',$art_list);
+		$smarty->assign('art_list_nj',$art_list_nj);
+		$smarty->assign('art_list_hb',$art_list_hb);
 	}else{
 		$smarty->assign('show_all_art',1);
 	}

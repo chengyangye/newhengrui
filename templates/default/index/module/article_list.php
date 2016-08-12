@@ -11,11 +11,15 @@
 		<div class="index_list_news l">
 			<h2 class="list_news_title">{$cat.cat_name} <span>  <a href="{url channel=$cat.channel cat=$cat.cat_id}">更多</a>  </span></h2>
 			<ul>
-				{foreach from=$art_list[$cat.cat_id] name=art_list item=item}
+				{foreach from=$art_list_nj[$cat.cat_id] name=art_list_nj item=item}
 					<li><a title="{$item.art_title}" target="_blank" href="{url channel=$cat.channel id=$item.art_id}">{$item.cat_name}{$item.short_title}</a><span>{$item.art_add_time|date_format:"%Y-%m-%d"}</span></li>
 				{/foreach}
 			</ul>
-
+			<ul>
+				{foreach from=$art_list_hb[$cat.cat_id] name=art_list_hb item=item}
+					<li><a title="{$item.art_title}" target="_blank" href="{url channel=$cat.channel id=$item.art_id}">{$item.cat_name}{$item.short_title}</a><span>{$item.art_add_time|date_format:"%Y-%m-%d"}</span></li>
+				{/foreach}
+			</ul>
 		</div>
 		{if $smarty.foreach.best_art_cat.index % 2 == 1 || $smarty.foreach.best_art_cat.last}<div class="clear"></div></div></div>{/if}
 	{/foreach}
