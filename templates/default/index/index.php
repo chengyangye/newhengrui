@@ -15,7 +15,7 @@
 	<link href="{$S_TPL_PATH}css/swiper3.07.min.css" rel="stylesheet" type="text/css" />
 
 </head>
-<body>°®°®°®
+<body>
 	{run module='header'}
 
 		{run module='ad' id='2'}

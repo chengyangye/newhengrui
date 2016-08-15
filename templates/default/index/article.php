@@ -7,20 +7,24 @@
 	<meta name="description" content="{$describe}" />
 	<meta name="version" content="{$version}" />
 	<title>{if $page_title}{$page_title} - {/if}{if $cat_name}{$cat_name} - {/if}{$channel_title} - {$site_title}</title>
-	<link href="{$S_TPL_PATH}css/app.css" rel="stylesheet" type="text/css" />
+
+	<link href="{$S_TPL_PATH}css/new/index.css" rel="stylesheet" type="text/css" />
+	<link href="{$S_TPL_PATH}css/new/style.css" rel="stylesheet" type="text/css" />
+	<link href="{$S_TPL_PATH}css/new/layout.css" rel="stylesheet" type="text/css" />
+	<link href="{$S_TPL_PATH}css/new/lrtk.css" rel="stylesheet" type="text/css" />
+	<link href="{$S_TPL_PATH}css/swiper3.07.min.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
 	{run module='header'}
-	<div id="main" class="wrap mt-10">
-		<div id="left" class="sub_left ll">
-			{run module='cat_list' id=$global.cat}
-		</div>
-		<div id="right" class="sub_right r">
-			{include file="module/here.php"}
-			{run module='article_main'}
-		</div>
-		<div class="clear"></div>
-	</div>
+	{run module='article_main'}
 	{run module='footer'}
 </body>
 </html>
+<script src="{$S_TPL_PATH}js/jquery-1.7.2.min(1).js" type="text/javascript"></script>
+<script src="{$S_TPL_PATH}js/swiper3.07.jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="{$S_TPL_PATH}js/stepcarousel.js"></script>
+<script src="{$S_TPL_PATH}js/prefixfree.min.js"></script>
+<script type="text/javascript" src="{$S_TPL_PATH}js/lrtk.js"></script>
+<script type="text/javascript" src="{$S_TPL_PATH}js/index.js"></script>
+<script type="text/javascript" src="{$S_TPL_PATH}js/share.js"></script>

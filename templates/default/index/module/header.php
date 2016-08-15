@@ -18,7 +18,7 @@
           <div class="clear"></div>
         </div>
     </div>-->
-    <div class="logo_"><div class="logo"> <img style="float:left;" src="templates/default/images/logo.png">
+    <div class="logo_"><div class="logo"> <img style="float:left;" src="templates/default/img/logo.jpg">
     </div>
     </div>
     <div id="navmenu" class="nav_bg">
