@@ -15,6 +15,7 @@
 				{foreach from=$art_list[$cat.cat_id] name=art_list item=item}
 				<li><a target="_blank">{$item.art_img}</a></li>
 				<li><a target="_blank">{$item.short_title}</a></li>
+				<li><a href="{url channel=$cat.channel id=$item.art_id}"</a></li>
 
 				{/foreach}
 			</ul>
