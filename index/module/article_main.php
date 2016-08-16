@@ -2,9 +2,18 @@
 function module_article_main()
 {
 	global $global,$smarty;
-	
 	if(!$global['id'])
 	{
+		$obj = new cat_art();
+		$obj->set_where('cat_id = '.$global['cat']);
+		$obj->set_page_size(1);
+		$top_cat = $obj->get_one();
+		if($top_cat['cat_top']==1){
+			$smarty->assign('show_pic',1);
+		}else{
+			$smarty->assign('show_pic',0);
+		}
+
 		$art_best = get_global('best');
 		$prefix = get_data('channel',$global['channel_id'],'cha_code');
 		$list_len = get_varia('art_list_len');
