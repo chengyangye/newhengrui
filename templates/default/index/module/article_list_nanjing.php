@@ -1,7 +1,7 @@
 {*<?php exit();?>*}
 <div class="pos">
 	<div class="ps_1200">
-		<img src="/img/pos.png">&nbsp;&nbsp;你的位置: <a href="">恒瑞文金</a> &gt; <a href="#/nanjing/">南京文交所</a>
+		<img src="{$S_TPL_PATH}img/pos.png">&nbsp;&nbsp;你的位置: <a href="/">恒瑞文金</a> &gt; <a href="?/nanjing/">南京文交所</a>
 	</div>
 </div>
 <div class="h100">

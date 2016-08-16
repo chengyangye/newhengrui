@@ -23,7 +23,7 @@
     </div>
     <div id="navmenu" class="nav_bg">
       <ul id="navi">
-        <li><a href="">首&nbsp;&nbsp;页</a></li>
+        <li><a href="/">首&nbsp;&nbsp;页</a></li>
         <li><a href="?/nanjing/">南京文交所</a></li>
         <li><a href="?/hebei/">河北文交所</a></li>
         <li><a href="http://jm.zifengwenjin.com/">招商加盟</a></li>
@@ -32,7 +32,7 @@
       </ul>
     </div>
 </div>
-
+{$S_TPL_PATH}
 {literal}
 <script language="javascript">
 	function do_search()
@@ -45,5 +45,15 @@
 </script>
 {/literal}
 <!-- 新秀 -->
+<div style="float:left; position:fixed; bottom:10px;">
+    <div style="width: 140px;padding: 10px 0 0;box-sizing: border-box;background-color: #F8C301;text-align: center;">
+        <img style="width: 120px;" src="{$S_TPL_PATH}img/gzh.jpg"><br>
+        <span style="color: #000100;padding: 5px 0;display: block;">关注微信公众号</span>
+    </div>
+    <div style="width: 140px;padding: 10px 0 0;box-sizing: border-box;background-color: #ffffff;text-align: center;">
+        <img style="width: 120px;" src="{$S_TPL_PATH}img/app.jpg"><br>
+        <span style="color: #AE1D20;padding: 5px 0;display: block;">手机APP下载</span>
+    </div>
+</div>
 
 
