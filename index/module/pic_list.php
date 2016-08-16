@@ -29,7 +29,6 @@ function module_pic_list()
 					
 			}
 			$art_list[$cat_id] = $list;
-			echo count($art_list[$cat_id]);
 			unset($obj);
 		}
 		$smarty->assign('best_art_cat',$pic_cat);
