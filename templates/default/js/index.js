@@ -81,3 +81,4 @@ stepcarousel.setup({
 		document.getElementById('stocklevels').style.visibility="visible";
 	}
 })
+

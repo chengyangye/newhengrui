@@ -226,3 +226,26 @@
 
 
 .cf:before, .cf:after{display: table;content: "";line-height: 0;}
+.kaihu ul li {
+    float: left;
+    width: 128px;
+    height: 39px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: none;
+    font-size:20px;
+}
+.kaihu ul {
+    overflow: hidden;
+    zoom: 1;
+    list-style-type: none;
+}
+#tab_con{ height:145px;}
+#tab_con div {
+    display: none;
+    border-top: none;
+}
+#tab_con div.fdiv {
+    display: block;font-size:15px;
+}
+.mianfei{background:#ebebeb;  padding:6px 10px 6px 10px; border-radius:3px; margin-left:10px; position:absolute; margin-top:30px;}

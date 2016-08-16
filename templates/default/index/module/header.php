@@ -23,9 +23,9 @@
     </div>
     <div id="navmenu" class="nav_bg">
       <ul id="navi">
-        <li class="navon"><a href="/">首&nbsp;&nbsp;页</a></li>
-        <li><a href="/nanjing/">南京文交所</a></li>
-        <li><a href="/zhongnan/">河北文交所</a></li>
+        <li><a href="">首&nbsp;&nbsp;页</a></li>
+        <li><a href="?/nanjing/">南京文交所</a></li>
+        <li><a href="?/hebei/">河北文交所</a></li>
         <li><a href="http://jm.zifengwenjin.com/">招商加盟</a></li>
         <li><a href="/download/">下载中心</a></li>
         <li><a href="/about/">关于我们</a></li>

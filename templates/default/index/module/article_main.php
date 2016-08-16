@@ -27,11 +27,11 @@
 						<img style="margin-top:10px; width:273px; height:59px" class="phone1" src="{$S_TPL_PATH}img/phone1.jpg">
 						<p style="text-align:center;width:273px; height:40px; line-height:30px;color:#444444; font-size:15px; width:273px; margin-top:5px;">
 							南京文交所：3244603778&nbsp;<a target="_blank" href="tencent://message/?uin=3244603778&Site">
-							<img style="vertical-align: middle" alt="在线咨询" src="{$S_TPL_PATH}img/qqq.jpg"></a>
+							<img style="vertical-align: middle;width: 85px;" alt="在线咨询" src="{$S_TPL_PATH}img/qqq.jpg"></a>
 						</p>
 						<big style="text-align:center;width:273px; height:40px; line-height:30px;color:#444444; font-size:15px; width:273px; margin-top:5px;">
 							河北文交所：3270541268<a target="_blank" href="tencent://message/?uin=3270541268&Site">
-							<img style="vertical-align:middle; margin-left:5px;" alt="在线咨询" src="{$S_TPL_PATH}img/qqq.jpg"></a></big>
+							<img style="vertical-align:middle; width: 85px;" alt="在线咨询" src="{$S_TPL_PATH}img/qqq.jpg"></a></big>
 					</div>
 				</div>
 
@@ -45,6 +45,7 @@
 		</div>
 		<if class="right">
 			{if $show_sheet == 1}
+			{if $show_pic==0}
 			<div class="name">
 				<img src="{$S_TPL_PATH}img/sg.jpg"><b>{if $channel_title}{$channel_title}{/if}{if $cat_name}{$cat_name}{/if}{if $page_title}{$page_title}{/if}</b>
 			</div>
@@ -58,6 +59,19 @@
 				{/foreach}
 				{include file="module/page_link.php" page=$global.page}
 			</div>
+			{else}
+					<div class="name">
+						<img src="{$S_TPL_PATH}img/sg.jpg"><b>交易品种</b>
+					</div>
+					<div class="list_p">
+						<ul class="list_">
+							{foreach from=$article name=article item=item}
+							<li><img width="204" height="198" src="{$item.art_img}"><b><a href="{url channel=$global.channel id=$item.art_id}">{$item.art_title}</a></b></li>
+							{/foreach}
+						</ul>
+						{include file="module/page_link.php" page=$global.page}
+					</div>
+			{/if}
 			{else}
 			<div class="name">
 				<img src="{$S_TPL_PATH}img/sg.jpg"><b>{$article.art_title}</b>
@@ -77,7 +91,7 @@
 				{include file="module/prev_next.php" id=$global.id}
 			</div>
 			{/if}
-	</div>
+
 	<!--右侧结束 -->
 </div>
 </div>

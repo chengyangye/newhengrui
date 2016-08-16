@@ -20,7 +20,7 @@ function module_pic_list()
 			$obj = new article();
 			$obj->set_field('art_id,art_title,art_cat_id,art_img');
 			$obj->set_where("art_cat_id in ($family)");
-			$obj->set_page_size($list_len ? $list_len : 10);
+			$obj->set_page_size($list_len ? $list_len : 5);
 			$list = $obj->get_list();
 			
 			for($j = 0; $j < count($list); $j ++)
