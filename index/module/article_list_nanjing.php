@@ -3,7 +3,7 @@ function module_article_list_nanjing()
 {
 	global $smarty;
 	$obj = new cat_art();
-	$obj->set_where('cat_best = 1');
+//	$obj->set_where('cat_best = 1');
 	$obj->set_where('cat_index = 1');
 	$best_cat = $obj->get_list();
 	$art_list = array();
@@ -29,7 +29,7 @@ function module_article_list_nanjing()
 				
 				if($j == 0){
 					$list[$j]['show_desc'] = 1;
-					$list[$j]['short_desc'] = cut_str($list[$k]['art_description'],55);
+					$list[$j]['short_desc'] = cut_str($list[$j]['art_description'],55);
 				}else{
 					$list[$j]['show_desc'] = 0;
 				}
