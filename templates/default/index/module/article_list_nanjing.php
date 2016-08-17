@@ -4,25 +4,20 @@
 		<img src="{$S_TPL_PATH}img/pos.png">&nbsp;&nbsp;你的位置: <a href="/">恒瑞文金</a> &gt; <a href="?/nanjing/">南京文交所</a>
 	</div>
 </div>
-<div class="h100">
-	<ul>
-		<a href="http://www.zifengwenjin.com/nanjing/kaihu/"><li class="kh"><img alt="开户中心" src="/img/khzx.png"><div class="div">开户中心<br>Internet</div></li></a>
-		<!--<a href="http://www.zifengwenjin.com/a/nj/index.html" ><li class="kh"><img src="/img/yyzx.png" alt="预约开户" /><div class="div">预约开户<br />Reserve</div></li></a> -->
-		<a target="_blank" href="http://jm.zifengwenjin.com/"><li class="kh"><img alt="代理中心" src="/img/rgfw.png"><div class="div">代理中心<br>Agent</div></li></a>
-		<li style="line-height:24px; font-size:12px; font-family:'宋体';"><img alt="代理中心" src="/img/wwx.jpg">手机开户<b style="color:#c40204">当天审核</b><br><small>使用微信的二维码扫描软件，即可关注我们。<br>我们将为您提供最新的活动信息。</small></li>
-	</ul>
-</div>
+
 <div class="h_365">
 	<div class="tzgg">
 		<!-- 通知公告&资讯 -->
-		<div class="h_tab">
+		<div style="float: left;height: 100%;margin-top: 15px;width: 750px;">
 			<div style="font-size:20px; margin-bottom:20px">资讯&amp;公告中心 <i style="font-size:15px; color:#CCC">Information</i></div>
 			<div id="table_2" class="tab_l">
-				<div id="stab1"><a class="thover" href="/notice/nj/">通知公告</a></div>
-				<div id="stab2"><a href="/purchase/nj/" class="">申购公告</a></div>
-				<div id="stab3"><a href="/hosting/nj/" class="">托管公告</a></div>
-				<div id="stab4"><a href="/review/" class="">紫峰综述</a></div>
-				<div id="stab5"><a href="/news/">紫峰动态</a></div>
+				{foreach from=$best_art_cat name=best_art_cat item=cat}
+				{if $smarty.foreach.best_art_cat.index ==0}
+				<div><a class="thover" href="{url channel=$cat.channel cat=$cat.cat_id}" >{$cat.cat_name}</a></div>
+				{else}
+				<div><a class="" href="{url channel=$cat.channel cat=$cat.cat_id}">{$cat.cat_name}</a></div>
+				{/if}
+				{/foreach}
 			</div>
 			<script language="javascript">
 
@@ -45,7 +40,7 @@
 			<div class="ht_con">
 				<div class="con_tab_12" id="con_stab_1" style="display: block;">
 					<div class="ht_pic">
-						<div class="ht_pic_left"><img width="180" height="105" src="/uploads/allimg/160815/1-160Q50Z6044N-lp.jpg">
+						<div class="ht_pic_left"><img width="180" height="105" src="{$S_TPL_PATH}img/0ZF31096-0-lp.png">
 						</div>
 						<div class="ht_pic_right">
 							<div class="ht_pic_right_top">
@@ -57,7 +52,7 @@
 						</div>
 						<div class="xian"></div>
 						<div class="liebiao">
-							<ul><li><i><img src="/img/li.png">&nbsp;&nbsp;</i><a href="/notice/nj/2016/3685.html">20160811关于藏品《二轮兑奖蛇小... </a><span>2016-08-12</span></li>
+							<ul><li><i><img src="{$S_TPL_PATH}img/li.png">&nbsp;&nbsp;</i><a href="/notice/nj/2016/3685.html">20160811关于藏品《二轮兑奖蛇小... </a><span>2016-08-12</span></li>
 								<li><i><img src="/img/li.png">&nbsp;&nbsp;</i><a href="/notice/nj/2016/3639.html">20160808藏品《53年无油壹分券》停... </a><span>2016-08-09</span></li>
 								<li><i><img src="/img/li.png">&nbsp;&nbsp;</i><a href="/notice/nj/2016/3627.html">20160806藏品《53年无油壹分券》停... </a><span>2016-08-08</span></li>
 								<li><i><img src="/img/li.png">&nbsp;&nbsp;</i><a href="/notice/nj/2016/3611.html">20160805藏品《53年无油壹分券》停... </a><span>2016-08-06</span></li>
@@ -190,8 +185,8 @@
 		<!--联系我们 -->
 		<div class="contact">
 			<div style="font-size:20px; margin-bottom:20px">联系我们<i style="font-size:15px; color:#CCC">Contact US</i><span style="float:right"><a style="font-size:15px" class="red" href="/about/contact/">+MORE</a></span></div>
-			<div class="zfwjwx"><img src="/img/zfwj.jpg"></div>
-			<div class="zfwjwx"><img border="0" usemap="#Map" src="/img/lxfs.png">
+			<div class="zfwjwx"><img src="{$S_TPL_PATH}img/zfwj.jpg"></div>
+			<div class="zfwjwx"><img border="0" usemap="#Map" src="{$S_TPL_PATH}img/lxfs.png">
 				<map id="Map" name="Map">
 					<area href="http://jq.qq.com/?_wv=1027&amp;k=29meoV9" coords="5,28,93,53" shape="rect">
 				</map>
