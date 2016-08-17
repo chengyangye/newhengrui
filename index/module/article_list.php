@@ -33,6 +33,12 @@ function module_article_list()
 						if($k == 0){
 							$list[$k]['show_desc'] = 1;
 							$list[$k]['short_desc'] = cut_str($list[$k]['art_description'],55);
+							
+							if($sub_cat[$j]['cat_index'] == 1){
+									$best_cat[$i]['cat_id_nj'] = $list[$k]['art_cat_id'];
+							}else if($sub_cat[$j]['cat_index'] == 2){
+									$best_cat[$i]['cat_id_hb'] = $list[$k]['art_cat_id'];
+							}
 						}else{
 							$list[$k]['show_desc'] = 0;
 						}

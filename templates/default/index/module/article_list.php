@@ -39,7 +39,7 @@
 
                     </div>
                     <div class="ht_pic_right">
-                        <div class="znwjs"><a target="_blank" href="/notice/nj/"><img src="{$S_TPL_PATH}img/nj.jpg"></a></div>
+                        <div class="znwjs"><a target="_blank" href="{url channel=$cat.channel cat=$cat.cat_id_nj}"><img src="{$S_TPL_PATH}img/nj.jpg"></a></div>
                         {foreach from=$art_list_nj[$cat.cat_id] name=art_list_nj item=item}
                             {if $smarty.foreach.art_list_nj.index ==0}
                             <div class="ht_pic_right_top"><a target="_blank" href="{url channel=$cat.channel id=$item.art_id}">
@@ -65,7 +65,7 @@
                 <div class="ht_pic">
                     <div class="ht_pic_left"><img src="{$S_TPL_PATH}img/imgtzfooter{$smarty.foreach.best_art_cat.index}.jpg"></div>
                     <div class="ht_pic_right">
-                        <div class="znwjs"><a target="_blank" href="/notice/zn/"><img src="{$S_TPL_PATH}img/zn.jpg"></a></div>
+                        <div class="znwjs"><a target="_blank" href="{url channel=$cat.channel cat=$cat.cat_id_hb}"><img src="{$S_TPL_PATH}img/zn.jpg"></a></div>
                         {foreach from=$art_list_hb[$cat.cat_id] name=art_list_hb item=item}
                         {if $smarty.foreach.art_list_hb.index ==0}
                         <div class="ht_pic_right_top"><a target="_blank" href="{url channel=$cat.channel id=$item.art_id}">
