@@ -4,7 +4,7 @@
 		<input name="cmd" type="hidden" value="admin_login" />
 		<table cellspacing="1" cellpadding="0">
 			<tr>
-                                <td class="c title" colspan="2">恒瑞文金后台登录</td>
+				<td class="c title" colspan="2">{$site_title}登录</td>
 			</tr>
 			<tr>
 				<td class="l">用户名：</td>

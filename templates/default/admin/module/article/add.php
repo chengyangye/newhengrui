@@ -44,13 +44,6 @@
 						<input class="text" name="art_description" type="text" value="{$site_description}" />
 					</td>
 				</tr>
-                                <tr>
-                                        <td>{$lang.art_pic}：</td>
-                                        <td>
-                                                <a>如需要配图,请在"文件管理"->"图片管理"中上传图片,并粘贴图片地址至此.</a><br>
-                                                <input class="text" name="art_img" type="text" value="{$site_img}" />
-                                        </td>
-                                </tr>
 				<tr>
 					<td colspan="2">
 						<div class="bt_row">

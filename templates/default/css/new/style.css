@@ -248,11 +248,11 @@
 .h100 ul li a{}
 .h100 ul li img{float:left; margin-right:5px;}
 .kh{margin-top:20px;}
-.h_365{width:100%; height:365px; background:url(pp.jpg) repeat-y; float:left; margin-top:30px;}
+.h_365{width:100%; height:365px; background:url(../../img/pp.jpg) repeat-y; float:left; margin-top:30px;}
 .h_tab{height:100%; width:750px; float:left; margin-top:15px;}
 .tab_l{height:55px; padding-top:2px;}
-.tab_l div{float: left; height:40px; font-size:16px; line-height:40px; width:147px; text-align:center; cursor:pointer; display:inline; background:#dddddd; margin-left:3px;}
-.tab_l div a.thover{display:block; background:#c40204; color:#fff; height:40px; width:147px;}
+.tab_l div{float: left; height:40px !important; font-size:16px; line-height:40px; width:147px; text-align:center; cursor:pointer; display:inline; background:#dddddd; margin-left:3px;}
+.tab_l div a.thover{display:block; background:#c40204 !important; color:#fff !important; height:40px !important; width:147px !important;}
 .ht_con{padding:0 5px;}
 .ht_pic{float:left; width:750px; height:250px; margin-top:10px; margin-bottom:10px;}
 .ht_pic_left{float:left; margin-right:20px; width:180px;}

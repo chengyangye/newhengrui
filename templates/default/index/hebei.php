@@ -8,19 +8,24 @@
 	<meta name="version" content="{$version}" />
 	<title>{$site_title}</title>
 
-	<link href="{$S_TPL_PATH}css/app.css" rel="stylesheet" type="text/css" />
+	<link href="{$S_TPL_PATH}css/new/style.css" rel="stylesheet" type="text/css" />
+	<link href="{$S_TPL_PATH}css/new/index.css" rel="stylesheet" type="text/css" />
+	<link href="{$S_TPL_PATH}css/new/layout.css" rel="stylesheet" type="text/css" />
+	<link href="{$S_TPL_PATH}css/new/lrtk.css" rel="stylesheet" type="text/css" />
 	<link href="{$S_TPL_PATH}css/swiper3.07.min.css" rel="stylesheet" type="text/css" />
-	<script src="{$S_TPL_PATH}js/jquery-1.7.2.min(1).js" type="text/javascript"></script>
-	<script src="{$S_TPL_PATH}js/swiper3.07.jquery.min.js" type="text/javascript"></script>
-	<script type="text/javascript" src="{$S_TPL_PATH}js/index.js"></script>
 </head>
 <body>
-	{run module='header'}
+{run module='header'}
 
-		{run module='ad' id='2'}
-		{run module='article_list_hebei'}
-		{run module='link'}
+{run module='article_list_hebei'}
+{run module='link'}
 
-	{run module='footer'}
+{run module='footer'}
 </body>
 </html>
+<script src="{$S_TPL_PATH}js/jquery-1.7.2.min(1).js" type="text/javascript"></script>
+<script src="{$S_TPL_PATH}js/swiper3.07.jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="{$S_TPL_PATH}js/stepcarousel.js"></script>
+<script src="{$S_TPL_PATH}js/prefixfree.min.js"></script>
+<script type="text/javascript" src="{$S_TPL_PATH}js/lrtk.js"></script>
+<script type="text/javascript" src="{$S_TPL_PATH}js/index.js"></script>

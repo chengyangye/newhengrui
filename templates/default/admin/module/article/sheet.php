@@ -7,9 +7,9 @@
 				<td width="120px">{$lang.category}</td>
 				<td>{$lang.title}</td>
 				<td width="45px">{$lang.set_index}</td>
-<!--				<td width="40px">推荐</td>
-                                <td width="40px">{$lang.set_top}</td>   -->
-                                <td width="40px">{$lang.set_show}</td>
+				<td width="40px">推荐</td>
+				<td width="40px">{$lang.set_top}</td>
+				<td width="40px">{$lang.set_show}</td>
 				<td width="150px">{$lang.operate}</td>
 			</tr>
 			{foreach from=$article name=article item=item}
@@ -22,8 +22,8 @@
 						<input type="text" id="index_{$item.art_id}" value="{$item.art_index}" style="width:30px;" onBlur="set_order('index','article',{$item.art_id},this.value)" />
 					</span>
 				</td>
-<!--				<td><input type="checkbox" {if $item.art_best == 1}checked{/if} onClick="set_order('best','article',{$item.art_id},this.checked)" /></td>
-                                <td><input type="checkbox" {if $item.art_top == 1}checked{/if} onClick="set_order('top','article',{$item.art_id},this.checked)" /></td> -->
+				<td><input type="checkbox" {if $item.art_best == 1}checked{/if} onClick="set_order('best','article',{$item.art_id},this.checked)" /></td>
+				<td><input type="checkbox" {if $item.art_top == 1}checked{/if} onClick="set_order('top','article',{$item.art_id},this.checked)" /></td>
 				<td><input type="checkbox" {if $item.art_show == 1}checked{/if} onClick="set_order('show','article',{$item.art_id},this.checked)" /></td>
 				<td>
 					<a href="{$S_ROOT}{url channel=$global.channel id=$item.art_id}" target="_blank">[{$lang.view}]</a>&nbsp;

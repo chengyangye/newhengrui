@@ -26,8 +26,8 @@
         <li><a href="/">首&nbsp;&nbsp;页</a></li>
         <li><a href="?/nanjing/">南京文交所</a></li>
         <li><a href="?/hebei/">河北文交所</a></li>
-        <li><a href="http://jm.zifengwenjin.com/">招商加盟</a></li>
-        <li><a href="/download/">下载中心</a></li>
+        <li><a href="jm.html">招商加盟</a></li>
+        <li><a href="http://www.zgqbyp.com/html/2014-3/201431154.html">下载中心</a></li>
         <li><a href="/about/">关于我们</a></li>
       </ul>
     </div>
@@ -45,7 +45,7 @@
 </script>
 {/literal}
 <!-- 新秀 -->
-<div style="float:left; position:fixed; bottom:10px;">
+<div style="float:left; position:fixed; bottom:10px;display: none">
     <div style="width: 140px;padding: 10px 0 0;box-sizing: border-box;background-color: #F8C301;text-align: center;">
         <img style="width: 120px;" src="{$S_TPL_PATH}img/gzh.jpg"><br>
         <span style="color: #000100;padding: 5px 0;display: block;">关注微信公众号</span>
