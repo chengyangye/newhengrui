@@ -14,6 +14,9 @@ function module_article_list_nanjing()
 		for($i = 0; $i < count($best_cat); $i ++)
 		{
 			$cat_id = $best_cat[$i]['cat_id'];
+			$str = $best_cat[$i]['cat_name'];
+                        $arr=explode('-',$str);
+                        $best_cat[$i]['cat_name'] = $arr[0];
 			$best_cat[$i]['channel'] = get_data('channel',$best_cat[$i]['cat_channel_id'],'cha_code');
 //			$family = implode(',',get_cat_family('cat_art',$cat_id));
 			$obj = new article();
