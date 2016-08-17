@@ -49,6 +49,6 @@
 
 
 <div class="kh">
-  <div class="khty"><a title="活动专区" target="_blank" href="http://www.zifengwenjin.com/activity/"><img width="284" height="143" src="{$S_TPL_PATH}img/pic1.jpg"></a><a target="_blank" title="开户体验" rel="nofollow" href="http://kh.zifengwenjin.com"><img width="284" height="143" src="{$S_TPL_PATH}img/pic2.jpg"></a><a target="_blank" title="招商加盟" href="http://jm.zifengwenjin.com"><img width="284" height="143" src="{$S_TPL_PATH}img/pic3.jpg"></a><a target="_blank" title="视频中心" href="/video/"><img width="284" height="143" src="{$S_TPL_PATH}img/pic4.jpg"></a></div>
+  <div class="khty"><a title="活动专区" target="_blank" href="http://www.zifengwenjin.com/activity/"><img width="284" height="143" src="{$S_TPL_PATH}img/pic1.jpg"></a><a target="_blank" title="开户体验" rel="nofollow" href="https://kh.zgqbyp.com/SelfOpenAccount/index.jsp?brokerId=2351"><img width="284" height="143" src="{$S_TPL_PATH}img/pic2.jpg"></a><a target="_blank" title="招商加盟" href="jm.html"><img width="284" height="143" src="{$S_TPL_PATH}img/pic3.jpg"></a><a target="_blank" title="视频中心" href="/video/"><img width="284" height="143" src="{$S_TPL_PATH}img/pic4.jpg"></a></div>
   <!--开户体验 -->
 </div>

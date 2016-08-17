@@ -45,7 +45,7 @@
 </script>
 {/literal}
 <!-- 新秀 -->
-<div style="float:left; position:fixed; bottom:10px;display: none">
+<div style="float:left; position:fixed; bottom:10px;z-index: 100000">
     <div style="width: 140px;padding: 10px 0 0;box-sizing: border-box;background-color: #F8C301;text-align: center;">
         <img style="width: 120px;" src="{$S_TPL_PATH}img/gzh.jpg"><br>
         <span style="color: #000100;padding: 5px 0;display: block;">关注微信公众号</span>
