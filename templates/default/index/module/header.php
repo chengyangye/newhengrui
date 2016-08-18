@@ -32,7 +32,6 @@
       </ul>
     </div>
 </div>
-{$S_TPL_PATH}
 {literal}
 <script language="javascript">
 	function do_search()
