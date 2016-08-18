@@ -32,10 +32,6 @@
       </ul>
     </div>
 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 59f91232dea7b8840a26883448703135f1ec38d4
 {literal}
 <script language="javascript">
 	function do_search()
