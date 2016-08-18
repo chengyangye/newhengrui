@@ -12,8 +12,8 @@
       <dd><a target="_blank" href="jm.html">招商加盟</a></dd>
     </dl>
     <dl>
-      <dt><a target="_blank" href="http://www.zgqbyp.com/html/2014-3/201431154.html">下载中心</a></dt>
-      <dd><a target="_blank" href="http://www.zgqbyp.com/html/2014-3/201431154.html">客户端下载</a></dd>
+      <dt><a target="_blank" href="http://www.zgqbyp.com/web/news/61.html">下载中心</a></dt>
+      <dd><a target="_blank" href="http://www.zgqbyp.com/web/about/58.html">客户端下载</a></dd>
     </dl>
     <dl>
       <dt><a target="_blank" href="?/article/id-17/index.html">关于我们</a></dt>

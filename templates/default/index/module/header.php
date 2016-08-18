@@ -27,12 +27,12 @@
         <li><a href="?/nanjing/">南京文交所</a></li>
         <li><a href="?/hebei/">河北文交所</a></li>
         <li><a href="jm.html">招商加盟</a></li>
-        <li><a href="http://www.zgqbyp.com/html/2014-3/201431154.html">下载中心</a></li>
+        <li><a href="http://www.zgqbyp.com/web/news/61.html">下载中心</a></li>
         <li><a href="?/article/id-17/index.html">关于我们</a></li>
       </ul>
     </div>
 </div>
-{$S_TPL_PATH}
+
 {literal}
 <script language="javascript">
 	function do_search()
