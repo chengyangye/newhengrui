@@ -16,7 +16,7 @@
 			<div class="zt">
 				<ul>
 					<li class="li_a"><a href="https://kh.zgqbyp.com/SelfOpenAccount/index.jsp?brokerId=2351">南京文交所开户中心</a></li>
-					<li class="li_b"><a href="https://kh.zgqbyp.com/SelfOpenAccount/index.jsp?brokerId=2351">河北文交所开户中心</a></li>
+					<li class="li_b"><a href="https://z.hbyoubi.com:16919/SelfOpenAccount/index.jsp?brokerId=21085">河北文交所开户中心</a></li>
 				</ul>
 			</div>
 

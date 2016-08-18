@@ -8,7 +8,7 @@
     </dl>
     <dl>
       <dt><a target="_blank" href="?/hebei/">河北文交所</a></dt>
-      <dd><a target="_blank" href="https://kh.zgqbyp.com/SelfOpenAccount/index.jsp?brokerId=2351">开户中心</a></dd>
+      <dd><a target="_blank" href="https://z.hbyoubi.com:16919/SelfOpenAccount/index.jsp?brokerId=21085">开户中心</a></dd>
       <dd><a target="_blank" href="jm.html">招商加盟</a></dd>
     </dl>
     <dl>
@@ -16,11 +16,9 @@
       <dd><a target="_blank" href="http://www.zgqbyp.com/html/2014-3/201431154.html">客户端下载</a></dd>
     </dl>
     <dl>
-      <dt><a target="_blank" href="/about/">关于我们</a></dt>
-      <dd><a target="_blank" href="/about/info/">中心简介</a></dd>
-      <dd><a target="_blank" href="/about/course/">发展历程</a></dd>
-      <dd><a target="_blank" href="/net/">服务网点</a></dd>
-      <dd><a target="_blank" href="/about/contact/">联系我们</a></dd>
+      <dt><a target="_blank" href="?/article/id-17/index.html">关于我们</a></dt>
+      <dd><a target="_blank" href="?/article/id-20/index.html">中心简介</a></dd>
+      <dd><a target="_blank" href="?/article/id-21/index.html">联系我们</a></dd>
     </dl>
   </div>
 </div>

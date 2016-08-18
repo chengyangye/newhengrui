@@ -110,7 +110,7 @@
           河北文交所：<a href="tencent://message/?uin=3270541268&Site">3270541268 </a><a target="_blank" href="tencent://message/?uin=3270541268&Site"><img style="vertical-align: middle;width: 85px;" alt="在线咨询" src="{$S_TPL_PATH}img/qqq.jpg"></a></big></div>
           <div class="fdiv">
           <a target="_blank" href="https://kh.zgqbyp.com/SelfOpenAccount/index.jsp?brokerId=2351"><img style="margin-top:18px;height:52px;" src="{$S_TPL_PATH}img/tubiao.png"><span style="font-size:24px; height:52px;vertical-align:50%;">南京文交所</span><span class="mianfei">免费开户</span></a><br>
-          <a target="_blank" href="https://kh.zgqbyp.com/SelfOpenAccount/index.jsp?brokerId=2351"><img style="margin-top:20px;height:52px;" src="{$S_TPL_PATH}img/tubiao0.png"><span style="font-size:24px; height:52px;vertical-align:50%;">河北文交所</span><span class="mianfei">免费开户</span></a></div>
+          <a target="_blank" href="https://z.hbyoubi.com:16919/SelfOpenAccount/index.jsp?brokerId=21085"><img style="margin-top:20px;height:52px;" src="{$S_TPL_PATH}img/tubiao0.png"><span style="font-size:24px; height:52px;vertical-align:50%;">河北文交所</span><span class="mianfei">免费开户</span></a></div>
 		</div>
         <div class="weixin"> <img width="95" height="95" style="margin-right:20px;" src="{$S_TPL_PATH}img/wx.png">
           <div class="zfwj"><b>恒瑞文金</b>
