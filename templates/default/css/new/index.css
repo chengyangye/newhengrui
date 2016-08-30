@@ -8,7 +8,7 @@
 .top .top-1200 small{color:#CCC; margin-left:10px;font-size:15px;}
 /*logo*/
 .logo_{width:100%; float:left;}
-.logo{width:1200px; margin:0 auto; height:110px;}
+.logo{width:1200px; margin:0 auto; height:110px;position: relative;}
 .logo img{margin-top:10px;}
 /*搜索*/
 #search{float:right; padding-top:20px; height:100px; width:430px;}

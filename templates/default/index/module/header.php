@@ -19,6 +19,11 @@
         </div>
     </div>-->
     <div class="logo_"><div class="logo"> <img style="float:left;" src="templates/default/img/logo.jpg">
+		<div style="position: absolute;right: 0;top: 10px;line-height: 25px;">
+            客服热线:<br>
+            <span style="color: #CF000D;">400-058-2351</span><br>
+            <span style="color: #CF000D;">0519-86588880</span>
+        </div>
     </div>
     </div>
     <div id="navmenu" class="nav_bg">
