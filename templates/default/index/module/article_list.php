@@ -93,26 +93,29 @@
       </div>
     </div>
     <div class="news-right">
-      <!-- 开户微信 -->
       <div class="kaihu">
-        <ul style=" border-bottom:1px #e0e0e0 solid" id="tab">
-          <li class="">快速通道</li>
-          <li style="" class="fli"><img alt="立即开户" src="{$S_TPL_PATH}img/ljkh.jpg"></li>
+        <ul style=" border-bottom:1px #e0e0e0 solid" id="tab">   
+          <li style="" class=""><img alt="立即开户" src="/templates/default/img/ljkh.jpg"></li>
         </ul>
         <div id="tab_con">
-          <div class="">
-          <img style="margin-top:10px; width:273px; height:59px" class="phone1" src="{$S_TPL_PATH}img/phone1.jpg">
+          <div class="fdiv">
+          <a target="_blank" href="https://kh.zgqbyp.com/SelfOpenAccount/index.jsp?brokerId=2351"><img style="margin-top:18px;height:52px;" src="/templates/default/img/tubiao.png"><span style="font-size:24px; height:52px;vertical-align:50%;">南京文交所</span><span class="mianfei">免费开户</span></a><br>
+          <a target="_blank" href="https://z.hbyoubi.com:16919/SelfOpenAccount/index.jsp?brokerId=21085"><img style="margin-top:20px;height:52px;" src="/templates/default/img/tubiao0.png"><span style="font-size:24px; height:52px;vertical-align:50%;">河北文交所</span><span class="mianfei">免费开户</span></a></div>
+		</div>
+    <ul style=" border-bottom:1px #e0e0e0 solid;margin-top:10px;" id="tab">
+          <li style="background-color:#d4000f;color:#fceeed;" class="fli">快速通道</li>
+        </ul>
+        <div id="tab_con">
+          <div class="fdiv">
+          <img style="margin-top:10px; width:273px; height:59px" class="phone1" src="/templates/default/img/phone1.jpg">
           <big style="text-align:center;width:273px; height:40px; line-height:30px;color:#444444; font-size:15px; width:273px; margin-top:5px;">
-          南京文交所：<a href="tencent://message/?uin=3244603778&Site">3244603778 </a>
-              <a target="_blank" href="tencent://message/?uin=3244603778&Site"><img style="vertical-align: middle;width: 85px;" alt="在线咨询" src="{$S_TPL_PATH}img/qqq.jpg"></a>
+          南京文交所：<a href="tencent://message/?uin=3244603778&amp;Site">3244603778 </a>
+              <a target="_blank" href="tencent://message/?uin=3244603778&amp;Site"><img style="vertical-align: middle;width: 85px;" alt="在线咨询" src="/templates/default/img/qqq.jpg"></a>
           </big>
           <big style="text-align:center;width:273px; height:40px; line-height:30px;color:#444444; font-size:15px; width:273px; margin-top:5px;">
-          河北文交所：<a href="tencent://message/?uin=3270541268&Site">3270541268 </a><a target="_blank" href="tencent://message/?uin=3270541268&Site"><img style="vertical-align: middle;width: 85px;" alt="在线咨询" src="{$S_TPL_PATH}img/qqq.jpg"></a></big></div>
-          <div class="fdiv">
-          <a target="_blank" href="https://kh.zgqbyp.com/SelfOpenAccount/index.jsp?brokerId=2351"><img style="margin-top:18px;height:52px;" src="{$S_TPL_PATH}img/tubiao.png"><span style="font-size:24px; height:52px;vertical-align:50%;">南京文交所</span><span class="mianfei">免费开户</span></a><br>
-          <a target="_blank" href="https://z.hbyoubi.com:16919/SelfOpenAccount/index.jsp?brokerId=21085"><img style="margin-top:20px;height:52px;" src="{$S_TPL_PATH}img/tubiao0.png"><span style="font-size:24px; height:52px;vertical-align:50%;">河北文交所</span><span class="mianfei">免费开户</span></a></div>
+          河北文交所：<a href="tencent://message/?uin=3270541268&amp;Site">3270541268 </a><a target="_blank" href="tencent://message/?uin=3270541268&amp;Site"><img style="vertical-align: middle;width: 85px;" alt="在线咨询" src="/templates/default/img/qqq.jpg"></a></big></div>
 		</div>
-        <div class="weixin"> <img width="95" height="95" style="margin-right:20px;" src="{$S_TPL_PATH}img/wx.png">
+        <div class="weixin"> <img width="95" height="95" style="margin-right:20px;" src="/templates/default/img/wx.png">
           <div class="zfwj"><b>恒瑞文金</b>
             <p>南京|河北文交所<br>
               第一服务品牌</p>
